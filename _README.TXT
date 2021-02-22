@@ -16,6 +16,6 @@ http://localhost:3000/
 
 
 
-# Quelle:
-https://hardhat.org/tutorial/hackathon-boilerplate-project.html
-https://github.com/nomiclabs/hardhat-hackathon-boilerplate
+# Sourcecode based on:
+- https://hardhat.org/tutorial/hackathon-boilerplate-project.html
+- https://github.com/nomiclabs/hardhat-hackathon-boilerplate
