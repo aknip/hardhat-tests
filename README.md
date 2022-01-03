@@ -1,29 +1,23 @@
-# Install
-
-Open with:
-https://gitpod.io/#https://github.com/aknip/hardhat-tests
-
-# Run Hardhat tests
-- npx hardhat compile
-- npx hardhat test
-
-
-# Run Node and Frontend
-
-1. Terminal:
-npm install
-npx hardhat node
-
-2. Terminal:
-npx hardhat --network localhost run scripts/deploy.js
-cd frontend
-npm install
-npm run start
+# Run in gitpod
+- https://gitpod.io/#https://github.com/aknip/hardhat-tests
+- Confirm npm installation in second terminal, after installation in first terminal has finished
+- This will execute the following commands:
+  - Run Hardhat node (1. Terminal):
+    - npm install
+    - npx hardhat node
+  - Run Frontend (2. Terminal):
+    - npx hardhat --network localhost run scripts/deploy.js
+    - cd frontend
+    - npm install
+    - npm run start
 
 Browser: 
 http://localhost:3000/
 
 
+# Run Hardhat tests
+- npx hardhat compile
+- npx hardhat test
 
 # Sourcecode based on:
 - https://hardhat.org/tutorial/hackathon-boilerplate-project.html
