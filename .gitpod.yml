@@ -1,0 +1,7 @@
+tasks:
+  - name: Open the Readme
+    command: gp open README.md
+  
+  - name: Dev Server
+    init: npm install
+    command: npx hardhat node
