@@ -1,6 +1,6 @@
 tasks:
   - name: Open the Readme
-    command: gp open README.md
+    command: gp open README.md && gp open contracts/Token.sol && gp open test/Token.js
   
   - name: Dev Server
     init: npm install
