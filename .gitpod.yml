@@ -1,6 +1,6 @@
 tasks:
   - name: Open the readme, contract and test
-    command: gp open contracts/Token.sol && gp open test/Token.js gp && open README.md
+    command: gp open contracts/Token.sol && gp open test/Token.js && gp open README.md
   
   - name: Hardhat server
     init: npm install
