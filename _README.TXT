@@ -1,6 +1,9 @@
 
 # Install
 
+Open with:
+https://gitpod.io/#https://github.com/aknip/hardhat-tests
+
 1. Terminal:
 npm install
 npx hardhat node
