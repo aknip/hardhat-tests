@@ -1,16 +1,3 @@
-OLD:
-
-"devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.0",
-    "@nomiclabs/hardhat-waffle": "^2.0.0",
-    "chai": "^4.2.0",
-    "ethereum-waffle": "^3.1.1",
-    "ethers": "^5.0.0",
-    "hardhat": "^2.0.4",
-    "husky": "^4.2.5"
-  }
-  
-
 # Install
 
 Open with:
@@ -42,6 +29,19 @@ http://localhost:3000/
 - https://hardhat.org/tutorial/hackathon-boilerplate-project.html
 - https://github.com/nomiclabs/hardhat-hackathon-boilerplate
 
+
+# Note: Old dependency versions
+
+"devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.1.1",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.0.4",
+    "husky": "^4.2.5"
+  }
+  
 
 # Hardhat Hackathon Boilerplate
 

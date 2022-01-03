@@ -1,7 +1,11 @@
 tasks:
-  - name: Open the Readme
+  - name: Open the readme, contract and test
     command: gp open README.md && gp open contracts/Token.sol && gp open test/Token.js
   
-  - name: Dev Server
+  - name: Hardhat server
     init: npm install
     command: npx hardhat node
+
+  - name: Frontend server
+    command: npx hardhat --network localhost run scripts/deploy.js && cd frontend && npm install && npm run start
+    openMode: split-right
