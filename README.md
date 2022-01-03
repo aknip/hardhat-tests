@@ -2,10 +2,10 @@
 - https://gitpod.io/#https://github.com/aknip/hardhat-tests
 - Confirm npm installation in second terminal, after installation in first terminal has finished
 - This will execute the following commands:
-  - Run Hardhat node (1. Terminal):
+  - 1. Terminal: Run Hardhat standalone test network, expose it as a JSON-RPC and WebSocket server:
     - npm install
     - npx hardhat node
-  - Run Frontend (2. Terminal):
+  - 2. Terminal: Run Frontend:
     - npx hardhat --network localhost run scripts/deploy.js
     - cd frontend
     - npm install
