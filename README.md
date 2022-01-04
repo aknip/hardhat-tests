@@ -19,7 +19,15 @@ http://localhost:3000/
 - npx hardhat compile
 - npx hardhat test
 
-# Sourcecode based on:
+# Test other contracts in this repo
+- cd contract-01-greeter (or other contract directory)
+- npx hardhat test
+
+# Todos, Ideas
+- Integrate https://usedapp.io
+
+
+# Sourcecode is based on:
 - https://hardhat.org/tutorial/hackathon-boilerplate-project.html
 - https://github.com/nomiclabs/hardhat-hackathon-boilerplate
 
